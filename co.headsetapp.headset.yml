@@ -21,8 +21,8 @@ modules:
       - ar x headset.deb
       - tar xf data.tar.xz
       - mv usr/lib/headset /app/
-      - install -Dm644 headset.svg /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
-      - install -Dm644 headset-symbolic.svg /app/share/icons/hicolor/symbolic/apps/${FLATPAK_ID}-symbolic.svg
+      - install -Dm644 usr/share/icons/hicolor/scalable/apps/headset.svg /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+      - install -Dm644 usr/share/icons/hicolor/symbolic/apps/headset-symbolic.svg /app/share/icons/hicolor/symbolic/apps/${FLATPAK_ID}-symbolic.svg
       - install -Dm644 co.headsetapp.headset.metainfo.xml -t /app/share/metainfo
       - install -Dm644 usr/share/applications/headset.desktop /app/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Icon" --set-value="${FLATPAK_ID}" /app/share/applications/${FLATPAK_ID}.desktop
@@ -34,12 +34,8 @@ modules:
           - zypak-wrapper /app/headset/headset "$@"
       - type: file
         url: https://raw.githubusercontent.com/headsetapp/headset-electron/main/co.headsetapp.headset.metainfo.xml
-        sha256: b9a30b7b683354525062588c6b4abf024834d6504fd982247d31660925918ec3
-      - type: file
-        path: icons/headset.svg
-      - type: file
-        path: icons/headset-symbolic.svg
+        sha256: e93a128c60283294cdf0ebade956ff645b7b96f872a4947d3f4586790710b343
       - type: file
         dest-filename: headset.deb
-        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_3.2.1_amd64.deb
-        sha256: f9dad4e2cec28618c59b89def7492bb74912ee1169d37571577571b464cc5fe8
+        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_3.3.0_amd64.deb
+        sha256: 26cb929e9e330d6f1d51dd13e45393e4dc15e9fd0cbd49d7138410dadb7c15d1
