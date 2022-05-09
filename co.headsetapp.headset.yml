@@ -34,8 +34,8 @@ modules:
           - zypak-wrapper /app/headset/headset "$@"
       - type: file
         url: https://raw.githubusercontent.com/headsetapp/headset-electron/main/co.headsetapp.headset.metainfo.xml
-        sha256: 24f4b0cdfb2fb616b4c8b92d47294419a7d462d2072ab9bb6d3a60daa6ec0fb8
+        sha256: ee34ec1c6eb19828ba6c328b7c51b75d339d8ef11a32887ba01742ec6a5ccec5
       - type: file
         dest-filename: headset.deb
-        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_3.3.3_amd64.deb
-        sha256: b664dea7692b8707558de62f42a4036b891e62013c7a74670400706a4b979b66
+        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.0.0_amd64.deb
+        sha256: 3351cc66061ccd9585ab410694230418e19436851c9aadfb27c61c7a7ef63e13
