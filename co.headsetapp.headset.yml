@@ -37,5 +37,5 @@ modules:
         sha256: ee34ec1c6eb19828ba6c328b7c51b75d339d8ef11a32887ba01742ec6a5ccec5
       - type: file
         dest-filename: headset.deb
-        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.0.0_amd64.deb
-        sha256: 3351cc66061ccd9585ab410694230418e19436851c9aadfb27c61c7a7ef63e13
+        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.1.0_amd64.deb
+        sha256: 5d0124cb2a32169513da1db8732cb009756dca99b395097ebb1b08b8acbc018f
