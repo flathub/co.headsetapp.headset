@@ -35,10 +35,10 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/headsetapp/headset-electron/main/co.headsetapp.headset.metainfo.xml
         # Change next when updating
-        sha256: 106d0b618804dbeda52bc4fc4f3d6dff07baf0e83dc7c075e9f7c7596ee455a9
+        sha256: 9c6a2478f173bf9f55fbacdf96b06ff4e3bb7f2bad2a40f1a35ea504abb0100c
       - type: file
         dest-filename: headset.deb
         # Change next when updating
         url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.1.2_amd64.deb
         # Change next when updating
-        sha256: a9ba420a18a034cb308bef1cb68d5c3a5209a92a9c7225114a1e3ab0c8b699d1
+        sha256: a5b05ec3df5a907e1a4f13b25e3366131411686fb8443a343b81866f2e3afc67
