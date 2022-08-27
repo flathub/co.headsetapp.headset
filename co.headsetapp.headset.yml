@@ -39,6 +39,6 @@ modules:
       - type: file
         dest-filename: headset.deb
         # Change next when updating
-        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.1.2_amd64.deb
+        url: https://headsetapp.co/headset-electron/debian/pool/non-free/h/headset/headset_4.2.1_amd64.deb
         # Change next when updating
         sha256: f3582c22aef8b2081ab84ea0f2933acf4e4a4e6b1b7b8f4265af5a450103c0ca
