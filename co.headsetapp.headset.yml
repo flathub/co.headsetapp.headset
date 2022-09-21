@@ -32,10 +32,10 @@ modules:
       - type: script
         dest-filename: headset.sh
         commands:
-          - zypak-wrapper /app/headset/headset "$@"
           - for i in {0..9}; do \
           -    test -S $XDG_RUNTIME_DIR/discord-ipc-$i || ln -sf {app/com.discordapp.Discord,$XDG_RUNTIME_DIR}/discord-ipc-$i; \
           -  done
+          - zypak-wrapper /app/headset/headset "$@"
       - type: file
         url: https://raw.githubusercontent.com/headsetapp/headset-electron/main/co.headsetapp.headset.metainfo.xml
         # Change next when updating
